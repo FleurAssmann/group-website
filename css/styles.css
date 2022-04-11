@@ -30,7 +30,7 @@ a{
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
   height:25px;
-  margin-top:125px;
+  margin-top:185px;
   margin-bottom:5px;
 }
 
@@ -54,7 +54,8 @@ a{
 }
 
 .shell-cart{
-	margin-top: -5px
+	margin-top: -20px;
+	margin-bottom: -5px;
 }
 .button-colletion {
 	border-color: #003457;
@@ -78,6 +79,4 @@ a{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-}
-.navbar-font {
 }
