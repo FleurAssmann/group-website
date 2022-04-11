@@ -10,12 +10,12 @@
 
 p {
 	font-family: 'Century Gothic', sans-serif;
+	
 }
 
 p2 {
 	font-family: 'Century Gothic', sans-serif;
 }
-
 
 .nav-link{
 	font-family: bely-display, sans-serif;
@@ -29,24 +29,35 @@ a{
 .shine{
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
-  height:25px;
-  margin-top:225px;
-  margin-bottom:5px;
+	height:25px;
+	margin-top:225px;
+	margin-bottom:5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .our-vision{
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
-  margin-top:60px;
-  margin-bottom:30px;
-	align-content: center
+	margin-top:60px;
+	margin-bottom:30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
 }
 .our-pearls {
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
 	margin-top:60px;
-  margin-bottom:60px;
-	align-content: center
+	margin-bottom:60px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .with-our-shell-hoodie {
@@ -67,6 +78,10 @@ a{
 
 .photo-together-in-car {
 	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .our-names {
@@ -79,4 +94,25 @@ a{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+}
+
+.text-our-mission{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.photo-name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.pearl-you-desire {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
