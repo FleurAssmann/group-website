@@ -5,8 +5,6 @@
 
 nav{
 	background-color: #003457;
-	color: #003457
-		
 }
 .nav-link{
 	font-family: bely-display, sans-serif;
@@ -37,13 +35,13 @@ nav{
 	font-size: 20px
 }
 
-.btn-outline-primary{
+.shell-cart{
+	margin-top: -5px
+}
+.button-colletion {
 	border-color: #003457;
 	color: #003457;
 	margin-top: 10px;
-	margin-right: 100px;
 }
-
-.shell-cart{
-	margin-top: -5px
+.row-first-banner {
 }
