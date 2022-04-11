@@ -2,13 +2,28 @@
 /* CSS Document */
 
 @import url("https://use.typekit.net/vcb3nfa.css");
+@import url('http://fonts.cdnfonts.com/css/century-gothic?styles=24895');
+@import url('http://fonts.cdnfonts.com/css/century-gothic?styles=24896');
+@import url('http://fonts.cdnfonts.com/css/century-gothic?styles=24898');
+@import url('http://fonts.cdnfonts.com/css/century-gothic?styles=24897');
 
-nav{
-	background-color: #003457;
+
+p {
+	font-family: 'Century Gothic', sans-serif;
 }
+
+p2 {
+	font-family: 'Century Gothic', sans-serif;
+}
+
+
 .nav-link{
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
+}
+
+a{
+	color: #1A537C
 }
 
 .shine{
@@ -18,17 +33,20 @@ nav{
   margin-top:125px;
   margin-bottom:5px;
 }
+
+.our-vision{
+	font-family: bely-display, sans-serif;
+	color: #B6CAD6;
+  margin-top:60px;
+  margin-bottom:30px;
+	align-content: center
+}
 .our-pearls {
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
-  height:25px;
-  margin-top:50px;
+	margin-top:60px;
   margin-bottom:60px;
 	align-content: center
-}
-
-.photo-pearls{
-	margin-left: 100px;
 }
 
 .with-our-shell-hoodie {
@@ -44,4 +62,22 @@ nav{
 	margin-top: 10px;
 }
 .row-first-banner {
+}
+
+.photo-together-in-car {
+	margin-top: 30px;
+}
+
+.our-names {
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: 100;
+	font-style:italic
+	
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+.navbar-font {
 }
