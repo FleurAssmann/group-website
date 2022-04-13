@@ -12,11 +12,11 @@ h1{
 	color: #B6CAD6;
 }
 p {
-	font-family: 'Century Gothic', sans-serif;
+	font-family: bely-display, sans-serif;
 	
 }
 
-p2 {
+.p2 {
 	font-family: 'Century Gothic', sans-serif;
 }
 
@@ -36,9 +36,6 @@ a{
 .shine{
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
-	height:25px;
-	margin-top:275px;
-	margin-bottom:5px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -131,8 +128,22 @@ a{
 	margin-bottom:60px;
 }
 
-.middle{
+.midden{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 100px;
+}
+
+.item-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: center;
+}
+
+.picture {
+	margin: 20px;
+}
