@@ -34,7 +34,7 @@ a{
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
 	height:25px;
-	margin-top:225px;
+	margin-top:275px;
 	margin-bottom:5px;
 	display: flex;
 	flex-direction: column;
@@ -89,11 +89,11 @@ a{
 }
 
 .our-names {
-	font-family: 'Century Gothic', sans-serif;
+	font-family: bely-display, sans-serif;
 	font-weight: 100;
-	font-style:italic
-	
+	color: rgba(0,51,88,1.00);
 }
+
 .sticky {
 	position: -webkit-sticky;
 	position: sticky;
