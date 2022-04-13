@@ -147,3 +147,12 @@ a{
 .picture {
 	margin: 20px;
 }
+
+.shell-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: left;
+	margin-top: -60px;
+}
