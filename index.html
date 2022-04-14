@@ -20,10 +20,9 @@
 	  
 <!-- NAVIGATION BAR -->
 	  
-    <nav class="navbar navbar-expand-lg sticky-top navbar-custom">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark navbar-custom">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html"><img src="images/logo-pearl-01.png" class="img-fluid" alt="logo" width="70" height="70"></a>
-	  
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,14 +40,28 @@
       </ul>
 		  <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
 			  <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="become-a-pearl.html">log in</a>
-				  <div class="login-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Username" name="username">
-      <input type="text" placeholder="Password" name="psw">
-      <button type="submit">Login</button>
-    </form>
+				<button type="button" class="btn btn-outline-primary button-log-in" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ 				 log in
+				</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Log in</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Confirm</button>
+      </div>
+    </div>
   </div>
+</div>
 			  </li>
 			  <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="become-a-pearl.html">BECOME A PEARL</a>
@@ -64,11 +77,11 @@
 <!-- 2 main columns, left picture and right the text with button -->
 	  
 <div class="row row-first-banner">
-	  <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 pearl-you-desire"><img src="images/pearl-desire-01.png" width="1000" height="600" alt="pearl-desire-to-be"></div>
+	  <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 pearl-you-desire"><img src="images/pearl-desire-01.png" width="900" height="500" alt="pearl-desire-to-be"></div>
   <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12 shine">
 		  <h2>SHINE YOUR INNER PEARL</h2>
 	  <p class="with-our-shell-hoodie">with our shell hoodie</p><div class="d-grid gap-2 col-6 mx-auto">
-  <button class="btn btn-outline-primary button-colletion" type="button">COLLECTION</button>
+  <a class="btn btn-outline-primary button-colletion" type="button" href="collection.html">COLLECTION</a>
 	</div>
 </div>
 	  </div>
@@ -114,7 +127,7 @@
 <!-- Our footer-->
 	    <footer class="shadow-lg mt-5 py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center p2">
-        <p>
+        <p class="p2">
           © 2021&ndash;2022 &mdash; PEARL
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
