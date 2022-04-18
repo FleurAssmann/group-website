@@ -20,19 +20,19 @@
 	  
 <!-- NAVIGATION BAR -->
 	  
-     <nav class="navbar navbar-expand-lg sticky-top navbar-custom">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark navbar-custom">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html"><img src="images/logo-pearl-01.png" class="img-fluid" alt="logo" width="70" height="70"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active navbar-font" aria-current="page" href="index.html">HOME</a>
+          <a class="nav-link navbar-font" href="index.html">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar-font" href="collection.html">COLLECTION</a>
+          <a class="nav-link navbar-font active" aria-current="page" href="collection.html">COLLECTION</a>
         </li>
         <li class="nav-item">
           <a class="nav-link navbar-font" href="story.html">STORY</a>
@@ -40,7 +40,10 @@
       </ul>
 		  <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
 			  <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="become-a-pearl.html">BECOME A PEARL</a>
+				<a class="btn btn-outline-primary button-log-in" href="log-in.html" role="button">log in</a>
+			  </li>
+			  <li class="nav-item">
+          <a class="nav-link" href="become-a-pearl.html">BECOME A PEARL</a>
 			  </li>
 			  <li class="nav-item">
           <a class="nav-link" href="cart-shell.html"><img src="icons/shell-light-blue-01.png" class="img-fluid shell-cart" alt="cart" width="55" height="55"></a>
@@ -49,6 +52,8 @@
     </div>
   </div>
 </nav>
+	  
+	  
 	  <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html" class="p2">home</a></li>
@@ -63,7 +68,8 @@
 	  <div class="col-lg-4 midden"><img src="images/hoodie-pink-logo-frame-01.png" width="400" height="400" alt="placeholder">
 	     </div>
 	<div class="col-lg-5 midden-shell"><h1>SHELL CORTEZ</h1>
-	  <p class="p2">The rare shell to have to shine bright as a unique pearl!<br>
+		<h4>€30,-</h4>
+		<p class="p2">The rare shell to have to shine bright as a unique pearl!<br>
 		For him/her/them.
 		</p>
 	<label id="size" class="p2">Choose your size</label>
@@ -127,6 +133,6 @@
         </ul>
       </div>
     </footer>
-	 
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

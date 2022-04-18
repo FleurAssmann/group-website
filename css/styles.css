@@ -11,6 +11,11 @@ h1{
 	font-family: bely-display, sans-serif;
 	color: #B6CAD6;
 }
+
+h4{
+	font-family: bely-display, sans-serif;
+	color: #003457;
+}
 p {
 	font-family: bely-display, sans-serif;
 	
@@ -75,9 +80,18 @@ a{
 
 .button-log-in{
 	border-color: #B6CAD6;
+	background-color: transparent;
 	color: #B6CAD6;
 	font-family: bely-display, sans-serif;
 }
+
+.button-confirm{
+	border-color: #003457;
+	background-color: #003457;
+	color: #B6CAD6;
+	font-family: bely-display, sans-serif;
+}
+
 .button-colletion {
 	border-color: #003457;
 	color: #003457;
@@ -181,6 +195,13 @@ a{
 .row-margin{
 	margin-top: 125px;
 	margin-bottom: 125px;
+}
+
+.text-collection{
+	text-align: center;
+	color: #003457;
+}
+
 }
 
 .video-collection{
