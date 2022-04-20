@@ -1,11 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url("https://use.typekit.net/vcb3nfa.css");
-@import url('http://fonts.cdnfonts.com/css/century-gothic?styles=24895');
-@import url('http://fonts.cdnfonts.com/css/century-gothic?styles=24896');
-@import url('http://fonts.cdnfonts.com/css/century-gothic?styles=24898');
-@import url('http://fonts.cdnfonts.com/css/century-gothic?styles=24897');
+@import url('https://use.typekit.net/vcb3nfa.css');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;800&display=swap');
+
+
 
 h1{
 	font-family: bely-display, sans-serif;
@@ -26,17 +25,24 @@ h4{
 	font-family: bely-display, sans-serif;
 	color: #003457;
 }
+
+h5{
+	font-family: bely-display, sans-serif;
+	color: #B6CAD6;
+}
 p {
 	font-family: bely-display, sans-serif;
 	
 }
 
 .p2 {
-	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Mulish', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
 }
 
 .text-under-collection {
-	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Mulish', sans-serif;
 	color: white;
 }
 
@@ -66,6 +72,10 @@ p {
 
 a{
 	color: #1A537C
+}
+
+.row-first-banner{
+	background-color: rgba(233,232,230,1.00);
 }
 
 .shine{
@@ -119,14 +129,7 @@ a{
 	border-color: #003457;
 	background-color: #003457;
 	color: #B6CAD6;
-	font-family: bely-display, sans-serif;
-}
-
-.button-collection {
-	border-color: #B6CAD6;
-	background-color: transparent;
-	color: #B6CAD6;
-	margin-top: 10px;
+	font-family: 'Mulish', sans-serif;
 }
 
 .button-colletion {
@@ -259,7 +262,17 @@ a{
   bottom: 0;
   z-index: -1;
 }
-
+#background-video-becoming{
+	width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 .text-video {
 	margin-top: 10vh;
 	margin-bottom: 10vh;
@@ -277,9 +290,16 @@ main {
 	display: grid;
 	height: 100%;
 }
-.center-fit {
+
+.center-fit-100 {
 	max-width: 100%;
 	max-height: 100vh;
+	margin: auto;
+}
+
+.center-fit {
+	max-width: 90%;
+	max-height: 90vh;
 	margin: auto;
 }
 
@@ -292,8 +312,8 @@ main {
 }
 
 .center-fit-pearls{
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 95%;
+	max-height: 95%;
 	margin: auto;
 }
 
@@ -310,4 +330,134 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.px-4{
+	padding-left: 2.5;
+  	padding-right: 2.5;
+}
+.bold {
+	font-family: 'Mulish', sans-serif;
+	font-weight: 800;
+}
+
+.shop {
+    font-size: 10px
+}
+
+.space {
+    letter-spacing: 0.8px !important
+}
+
+.second a:hover {
+    color: rgb(92, 92, 92)
+}
+
+.active-2 {
+    color: rgb(92, 92, 92)
+}
+
+.breadcrumb>li+li:before {
+    content: "" !important
+}
+
+.breadcrumb {
+    padding: 0px;
+    font-size: 10px;
+    color: #aaa !important
+}
+
+.first {
+    background-color: white
+}
+
+a {
+    text-decoration: none !important;
+    color: #aaa
+}
+
+.btn-lg,
+.form-control-sm:focus,
+.form-control-sm:active,
+a:focus,
+a:active {
+    outline: none !important;
+    box-shadow: none !important
+}
+
+.form-control-sm:focus {
+    border: 1.5px solid #4bb8a9
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: .5rem 0.1rem;
+    font-size: 1rem;
+    border-radius: 0;
+    color: white !important;
+    background-color: #4bb8a9;
+    height: 2.8rem !important;
+    border-radius: 0.2rem !important
+}
+
+.btn-group-lg>.btn:hover,
+.btn-lg:hover {
+    background-color: #26A69A
+}
+
+.btn-outline-primary {
+    background-color: #fff !important;
+    color: #4bb8a9 !important;
+    border-radius: 0.2rem !important;
+    border: 1px solid #4bb8a9
+}
+
+.btn-outline-primary:hover {
+    background-color: #4bb8a9 !important;
+    color: #fff !important;
+    border: 1px solid #4bb8a9
+}
+
+.card-2 {
+    margin-top: 40px !important
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 0px solid #aaaa !important
+}
+
+p {
+    font-size: 13px
+}
+
+.small {
+    font-size: 9px !important
+}
+
+.form-control-sm {
+    height: calc(2.2em + .5rem + 2px);
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0
+}
+
+.cursor-pointer {
+    cursor: pointer
+}
+
+.boxed {
+    padding: 0px 8px 0 8px;
+    background-color: #003457;
+    color: white
+}
+
+.boxed-1 {
+    padding: 0px 8px 0 8px;
+    color: black !important;
+    border: 1px solid #aaaa
+}
+
+.bell {
+    opacity: 0.5;
+    cursor: pointer
 }
