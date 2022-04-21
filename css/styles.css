@@ -318,6 +318,11 @@ main {
 	margin: auto;
 }
 
+.center-fit-boss{
+	max-width: 70%;
+	max-height: 70%;
+	margin: 20px;
+}
 
 .margin-div {
 	margin-left: 20px;
